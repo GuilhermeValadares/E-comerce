@@ -1,13 +1,27 @@
 import React from 'react';
 import Menu from '../../Components/Menu';
 import GlobalStyle from '../../GlobalStyle';
+import { Titulo, Container } from './style';
+import ProductItem from '../../Components/ProductItems';
+import { Products } from './style';
 
 function Home() {
   return (
-    <div className="App">
-      <GlobalStyle/>
-      <Menu />
-    </div>
+    <>
+      <GlobalStyle />
+       <Menu />
+        <Container>
+        <Titulo>Produtos em destaque</Titulo>
+        <Products>
+          <ProductItem />
+          <ProductItem />
+          <ProductItem />
+          <ProductItem />
+          <ProductItem />
+        </Products>
+
+      </Container>
+    </>
   );
 }
 

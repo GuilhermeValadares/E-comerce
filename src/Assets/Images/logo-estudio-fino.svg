@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340">
+  <!-- Fundo transparente: nenhum retângulo de fundo -->
+  <circle cx="170" cy="170" r="132" fill="none" stroke="#6D28D9" stroke-width="9"/>
+  <g fill="none" stroke="#16A34A" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M170 98 C170 78 196 74 196 94 C196 108 170 112 170 128"/>
+    <path d="M170 128 L82 206 Q74 214 84 214 L256 214 Q266 214 258 206 L170 128"/>
+  </g>
+  <path d="M104 240 H236" stroke="#6D28D9" stroke-width="9" stroke-linecap="round" stroke-dasharray="2 18"/>
+
+  <text x="345" y="200" font-family="'Playfair Display','DejaVu Serif',Georgia,serif" font-size="84" font-weight="700" fill="#6D28D9" textLength="520" lengthAdjust="spacingAndGlyphs">Estúdio Fino</text>
+</svg>
